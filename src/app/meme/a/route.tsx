@@ -15,7 +15,7 @@ export async function GET(request: Request) {
   ).then((res) => res.arrayBuffer())
 
   const fontData = await fetch(
-    new URL('../../../assets/Oswald-Bold.ttf', import.meta.url)
+    new URL('../../../../assets/Oswald-Bold.ttf', import.meta.url)
   ).then((res) => res.arrayBuffer())
 
   return new ImageResponse(
