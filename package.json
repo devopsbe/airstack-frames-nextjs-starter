@@ -12,13 +12,11 @@
   },
   "dependencies": {
     "@airstack/frog": "^0.0.7",
-    "@resvg/resvg-js": "^2.6.0",
     "dotenv": "^16.4.5",
     "hono": "^4.5.4",
     "next": "^14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "sharp": "^0.33.2"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
