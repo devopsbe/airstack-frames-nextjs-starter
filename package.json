@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "frog vercel-build",
-    "dev": "npx @airstack/frog dev",
+    "dev": "next dev",
+    "build": "next build",
     "deploy": "vercel --prod",
     "deploy:preview": "vercel",
     "start": "next start",
@@ -12,7 +12,7 @@
     "devtools": "npx frog"
   },
   "dependencies": {
-    "@airstack/frog": "latest",
+    "@airstack/frog": "^0.0.7",
     "@resvg/resvg-js": "^2.6.0",
     "dotenv": "^16.4.5",
     "hono": "^4.5.4",
@@ -22,7 +22,6 @@
     "sharp": "^0.33.2"
   },
   "devDependencies": {
-    "deploy": "vercel",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
