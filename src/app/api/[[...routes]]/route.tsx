@@ -5,7 +5,6 @@ import { devtools } from "@airstack/frog/dev";
 import { serveStatic } from "@airstack/frog/serve-static";
 
 const app = new Frog({
-  title: 'Born',
   apiKey: process.env.AIRSTACK_API_KEY as string,
   basePath: '/api',
 })
