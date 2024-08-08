@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "vercel --prod",
-    "deploy:preview": "vercel",
+    "deploy": "vercel",
     "start": "next start",
     "lint": "next lint",
     "devtools": "npx frog"
